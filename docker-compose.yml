@@ -1,0 +1,19 @@
+version: "3.9"
+
+# Name of application is app
+# build the docker file in the current directory and args for development =true
+# maps local machine port 8000 to container port 8000
+# volume to update src code real-time to container (Won't have to rebuild) Auto sync
+# Command to run the service (Can overwrite with docker-compose ..)
+services:
+  app:
+    build:
+      context: .
+      args:
+        - DEV=true
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
