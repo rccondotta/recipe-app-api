@@ -262,7 +262,7 @@ Recipe API project.
     - issue when using docker-compose locally
     - issue when running deployed environmen
 
--Migrations
+- Migrations
     - Django ORM
         - Object Relational Mapper (ORM)
         - Abstraction layer for data
