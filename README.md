@@ -60,13 +60,13 @@ Recipe API project.
 	- Testing and Linting
 
 ### Django Project Structure
-app/
+- app/
     - Django project
-app/core/
+- app/core/
     - Code shared betwen multiple apps (database definition)
-app/user/
+- app/user/
     - User related code
-app/recipe/
+- app/recipe/
     - Recipe related code
 
 ## Test Driven Development (TDD)
