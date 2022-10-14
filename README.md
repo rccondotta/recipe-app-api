@@ -109,7 +109,7 @@ Recipe API project.
     - Setup jobs (Run unit tests)
     - Result (Success/fail)
 
--Configuring
+- Configuring
     - Create config file @ .github/workflows/checks.yml (Must end in .yml)
         - Set trigger
         - Add steps
